@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=5000&color=00FF00&repeat=false&width=500&lines=Writing+the+future+in+brackets+and+semicolons.)](https://git.io/typing-svg)
 
-### JSON Snapshot of Me: `/api/profile/krtdotcode`
+##### JSON Snapshot of Me: `/api/profile/krtdotcode`
 
 ```json
 {
