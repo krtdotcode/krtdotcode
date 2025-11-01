@@ -53,7 +53,11 @@
 <!-- Contribution Graph -->
 <div align="center">
   <h2>Contribution Graph</h2>
-  <img id="contrib-graph" src="https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github-dark&gap=1&scheme=github&flat=true&hideBorder=true" alt="3D Contribution Graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github-dark&gap=1&scheme=github&flat=true&hideBorder=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github&gap=1&scheme=github&flat=true&hideBorder=true">
+    <img src="https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github&gap=1&scheme=github&flat=true&hideBorder=true" alt="3D Contribution Graph" />
+  </picture>
 </div>
 
 ---
@@ -99,25 +103,3 @@
     <em>Open to collaborations, discussions, and new opportunities!</em>
   </p>
 </div>
-
-<!-- Theme Toggle Script -->
-<script>
-  function updateContributionGraph() {
-    const theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    const graphImg = document.getElementById('contrib-graph');
-
-    if (theme === 'dark') {
-      // Night rainbow scheme for dark mode
-      graphImg.src = 'https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github-dark&gap=1&scheme=github&flat=true&hideBorder=true';
-    } else {
-      // Season scheme for light mode
-      graphImg.src = 'https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github&gap=1&scheme=github&flat=true&hideBorder=true';
-    }
-  }
-
-  // Update on page load
-  updateContributionGraph();
-
-  // Listen for theme changes
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateContributionGraph);
-</script>
