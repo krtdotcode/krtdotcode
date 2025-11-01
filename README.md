@@ -1,3 +1,4 @@
+<!-- Last updated: 2025-11-02T05:40:33Z -->
 <!-- Header Section with ASCII Art -->
 <div align="center">
   <div style="overflow-x: auto; max-width: 100%;">
@@ -50,10 +51,10 @@
 
 ---
 
-<!-- Contribution Graph -->
+<!-- 3D Contribution Graph -->
 <div align="center">
   <h2>Contribution Graph</h2>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=krtdotcode&theme=github-compact" alt="Contribution Graph" />
+  <img src="https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github-dark&gap=1&scheme=github&flat=true&hideBorder=true" alt="3D Contribution Graph" />
 </div>
 
 ---

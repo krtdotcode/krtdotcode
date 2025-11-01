@@ -22,8 +22,8 @@ jobs:
 
       - name: Update README with latest stats
         run: |
-          # The README uses dynamic APIs, but this workflow ensures
-          # any static content stays fresh and can be extended for custom updates
+          # Add a timestamp comment to force refresh of dynamic content
+          sed -i "s|<!-- Last updated: .* -->|<!-- Last updated: $(date -u +'%Y-%m-%dT%H:%M:%SZ') -->|" README.md
           echo "Profile README updated at $(date)" >> update-log.txt
 
       - name: Commit and push changes (if any)
