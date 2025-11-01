@@ -53,11 +53,7 @@
 <!-- Contribution Graph -->
 <div align="center">
   <h2>Contribution Graph</h2>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github-dark&gap=1&scheme=github&flat=true&hideBorder=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github&gap=1&scheme=github&flat=true&hideBorder=true">
-    <img src="https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github&gap=1&scheme=github&flat=true&hideBorder=true" alt="3D Contribution Graph" />
-  </picture>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=krtdotcode&theme=github-compact" alt="Contribution Graph" />
 </div>
 
 ---
