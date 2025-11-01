@@ -67,9 +67,21 @@
 <div align="center">
   <h2>GitHub Analytics</h2>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-    <img src="https://github-readme-stats.vercel.app/api?username=krtdotcode&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=krtdotcode&theme=github-dark&hide_border=true" alt="GitHub Streak" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=krtdotcode&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top Languages" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=krtdotcode&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=krtdotcode&show_icons=true&theme=github&hide_border=true&include_all_commits=true&count_private=true">
+      <img src="https://github-readme-stats.vercel.app/api?username=krtdotcode&show_icons=true&theme=github&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+    </picture>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=krtdotcode&theme=github-dark&hide_border=true">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=krtdotcode&theme=github&hide_border=true">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=krtdotcode&theme=github&hide_border=true" alt="GitHub Streak" />
+    </picture>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=krtdotcode&layout=compact&theme=github_dark&hide_border=true&langs_count=8">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=krtdotcode&layout=compact&theme=github&hide_border=true&langs_count=8">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=krtdotcode&layout=compact&theme=github&hide_border=true&langs_count=8" alt="Top Languages" />
+    </picture>
   </div>
 </div>
 
