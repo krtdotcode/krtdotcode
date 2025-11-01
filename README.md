@@ -1,21 +1,31 @@
-<!-- Header Section with Dynamic Theme Support -->
+<!-- Header Section with ASCII Art -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F7F7F7&center=true&vCenter=true&repeat=false&width=600&lines=Hello+World!+I'm+Kurt+Joshua+Cayaga;Full-Stack+Developer+%7C+AI+Enthusiast;Building+the+Future+with+Code" alt="Typing SVG" />
+  <div style="overflow-x: auto; max-width: 100%;">
+    <pre style="font-size: 10px; line-height: 1; margin: 0;">
+ ___  __    ________  _________    ________  ________  ________  _______
+|\  \|\  \ |\   __  \|\___   ___\ |\   ____\|\   __  \|\   ___ \|\  ___ \
+\ \  \/  /|\ \  \|\  \|___ \  \_| \ \  \___|\ \  \|\  \ \  \_|\ \ \   __/|
+ \ \   ___  \ \   _  _\   \ \  \   \ \  \    \ \  \\\  \ \  \ \\ \ \  \_|/__
+  \ \  \\ \  \ \  \\  \|   \ \  \ __\ \  \____\ \  \\\  \ \  \_\\ \ \  \_|\ \
+   \ \__\\ \__\ \__\\ _\    \ \__\\__\ \_______\ \_______\ \_______\ \_______\
+    \|__| \|__|\|__|\|__|    \|__\|__|\|_______|\|_______|\|_______|\|_______|
+    </pre>
+  </div>
 </div>
 
 ---
 
 <!-- Profile Stats with Theme Adaptation -->
 <div align="center">
-  <h2>🚀 About Me</h2>
+  <h2>About Me</h2>
   <p>
-    <img src="https://img.shields.io/badge/Computer%20Science%20Student-University%20of%20Cabuyao-blue?style=for-the-badge&logo=university" alt="CS Student"/>
-    <img src="https://img.shields.io/badge/Location-Cabuyao%2C%20Philippines-green?style=for-the-badge&logo=map" alt="Location"/>
-    <img src="https://img.shields.io/badge/Year-3rd%20Year-orange?style=for-the-badge&logo=calendar" alt="Year"/>
+    <img src="https://img.shields.io/badge/3rd%20Year%20Computer%20Science-University%20of%20Cabuyao-32CD32?style=for-the-badge&logo=university&logoColor=white" alt="CS Student"/>
   </p>
   <p align="center">
-    Passionate Computer Science student specializing in Full-Stack Development, AI, and Machine Learning.<br>
-    Always eager to learn, collaborate, and contribute to innovative tech projects.
+    Aspiring AI/ML Engineer with a strong foundation in Computer Science.<br><br>
+    Passionate about developing intelligent systems and leveraging machine learning<br>
+    to solve complex real-world problems. Committed to continuous learning in emerging<br>
+    AI technologies and contributing to innovative projects.
   </p>
 </div>
 
@@ -23,31 +33,34 @@
 
 <!-- Skills Section -->
 <div align="center">
-  <h2>🛠️ Tech Stack & Tools</h2>
+  <h2>AI & Machine Learning Stack</h2>
+
+  <!-- AI & ML Tools -->
   <p>
-    <img src="https://skillicons.dev/icons?i=javascript,typescript,python,java,cpp,html,css,react,nextjs,node,express,mongodb,postgresql,mysql,git,docker,kubernetes,aws,linux,vscode&theme=dark" alt="Tech Stack" />
-  </p>
-  <p>
-    <img src="https://img.shields.io/badge/-Full%20Stack%20Development-333333?style=flat&logo=stackshare&logoColor=white" />
-    <img src="https://img.shields.io/badge/-AI%20%26%20ML-333333?style=flat&logo=tensorflow&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Cloud%20Computing-333333?style=flat&logo=amazon-aws&logoColor=white" />
-    <img src="https://img.shields.io/badge/-DevOps-333333?style=flat&logo=docker&logoColor=white" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="50" alt="Python" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" height="50" alt="NumPy" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" height="50" alt="Pandas" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" height="50" alt="Scikit-learn" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" height="50" alt="TensorFlow" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" height="50" alt="PyTorch" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" height="50" alt="Jupyter" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecolab/googlecolab-original.svg" height="50" alt="Google Colab" />
   </p>
 </div>
 
 ---
 
-<!-- 3D Contribution Graph -->
+<!-- Contribution Graph -->
 <div align="center">
-  <h2>📈 3D Contribution Graph</h2>
-  <img src="https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github-dark&gap=1&scheme=orange&flat=true&hideBorder=true" alt="3D Contribution Graph" />
+  <h2>Contribution Graph</h2>
+  <img id="contrib-graph" src="https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github-dark&gap=1&scheme=github&flat=true&hideBorder=true" alt="3D Contribution Graph" />
 </div>
 
 ---
 
 <!-- GitHub Stats with Dynamic Themes -->
 <div align="center">
-  <h2>📊 GitHub Analytics</h2>
+  <h2>GitHub Analytics</h2>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
     <img src="https://github-readme-stats.vercel.app/api?username=krtdotcode&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=krtdotcode&theme=github-dark&hide_border=true" alt="GitHub Streak" />
@@ -59,26 +72,18 @@
 
 <!-- GitHub Trophies -->
 <div align="center">
-  <h2>🏆 Achievements</h2>
-  <img src="https://github-profile-trophy.vercel.app/?username=krtdotcode&theme=github_dark&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
+  <h2>Achievements</h2>
+  <img src="https://github-profile-trophy.vercel.app/?username=krtdotcode&theme=highcontrast&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" />
 </div>
 
 ---
 
-<!-- Recent Activity -->
+<!-- Footer -->
 <div align="center">
-  <h2>🔥 Recent Activity</h2>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=krtdotcode&theme=github-dark&hide_border=true&area=true" alt="Activity Graph" />
-</div>
-
----
-
-<!-- Connect Section -->
-<div align="center">
-  <h2>🌐 Let's Connect</h2>
+  <h2>Let's Connect</h2>
   <p>
     <a href="https://linkedin.com/in/kurtjoshuacayaga" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn"/>
     </a>
     <a href="https://facebook.com/kjpc.16" target="_blank">
       <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
@@ -95,21 +100,24 @@
   </p>
 </div>
 
----
-
-<!-- Footer -->
-<div align="center">
-  <p>
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=github_dark" alt="Random Dev Quote"/>
-  </p>
-  <p>
-    <img src="https://komarev.com/ghpvc/?username=krtdotcode&label=Profile%20Views&color=blue&style=flat" alt="Profile Views"/>
-  </p>
-</div>
-
-<!-- Theme Toggle Script (for potential future enhancement) -->
+<!-- Theme Toggle Script -->
 <script>
-  // This script can be used to dynamically change themes if needed
-  const theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  console.log('Current theme:', theme);
+  function updateContributionGraph() {
+    const theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    const graphImg = document.getElementById('contrib-graph');
+
+    if (theme === 'dark') {
+      // Night rainbow scheme for dark mode
+      graphImg.src = 'https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github-dark&gap=1&scheme=github&flat=true&hideBorder=true';
+    } else {
+      // Season scheme for light mode
+      graphImg.src = 'https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github&gap=1&scheme=github&flat=true&hideBorder=true';
+    }
+  }
+
+  // Update on page load
+  updateContributionGraph();
+
+  // Listen for theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateContributionGraph);
 </script>
