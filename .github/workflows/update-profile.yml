@@ -1,40 +1,28 @@
-name: Update GitHub Profile README
+name: GitHub-Profile-3D-Contrib
 
 on:
-  schedule:
-    # Runs every day at 00:00 UTC
-    - cron: '0 0 * * *'
-  workflow_dispatch: # Allows manual triggering
-  push:
-    branches:
-      - main
-    paths:
-      - '.github/workflows/update-profile.yml'
+  schedule: # 03:00 JST == 18:00 UTC
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  update-readme:
+  build:
     runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT_TOKEN }}
-          fetch-depth: 0
-
-      - name: Update README with latest stats
+      - uses: actions/checkout@v5
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push
         run: |
-          # Add a timestamp comment to force refresh of dynamic content
-          sed -i "s|<!-- Last updated: .* -->|<!-- Last updated: $(date -u +'%Y-%m-%dT%H:%M:%SZ') -->|" README.md
-          echo "Profile README updated at $(date)" >> update-log.txt
-
-      - name: Commit and push changes (if any)
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add -A
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Auto-update profile README [$(date +'%Y-%m-%d')]"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git commit -m "generated"; then
             git push
           fi

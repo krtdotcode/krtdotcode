@@ -53,8 +53,8 @@
 
 <!-- 3D Contribution Graph -->
 <div align="center">
-  <h2>3D Contribution Graph</h2>
-  <img src="https://github-profile-3d-contrib.vercel.app/api/3d-contrib/profile-svg?username=krtdotcode&theme=github-dark&no-bg=true&gap=1.0" alt="3D Contribution Graph" />
+  <h2>Contribution Graph</h2>
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" />
 </div>
 
 ---
