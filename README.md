@@ -20,7 +20,7 @@
 <div align="center">
   <h2>About Me</h2>
   <p>
-    <img src="https://img.shields.io/badge/3rd%20Year%20Computer%20Science-University%20of%20Cabuyao-32CD32?style=for-the-badge&logo=university&logoColor=white" alt="CS Student"/>
+    <img src="https://img.shields.io/badge/3rd%20Year%20Computer%20Science-University%20of%20Cabuyao-228B22?style=for-the-badge&logo=university&logoColor=white" alt="CS Student"/>
   </p>
   <p align="center">
     Aspiring AI/ML Engineer with a strong foundation in Computer Science.<br><br>
